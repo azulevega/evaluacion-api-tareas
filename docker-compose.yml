@@ -3,6 +3,6 @@ services:
     build: .
     container_name: evaluacion-api-tareas
     ports:
-      - "3028:8000"
+      - "3028:8001"
     volumes:
       - ./app:/app
