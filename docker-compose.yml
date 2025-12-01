@@ -1,9 +1,9 @@
 services:
   api:
     build: .
-    container_name: api-tareas
+    container_name: api-tareas-azul
     ports:
-      - "3028:8000"
+      - "8000:8000"
     restart: unless-stopped
     volumes:
       - .:/app
