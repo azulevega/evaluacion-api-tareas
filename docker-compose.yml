@@ -1,8 +1,7 @@
 services:
   api:
     build: .
-    container_name: evaluacion-api-tareas
+    container_name: api-basica-tarea
     ports:
       - "3028:8000"
-    volumes:
-      - ./app:/app
+    restart: unless-stopped
